@@ -52,3 +52,6 @@
 @media(max-width:700px){.stat{flex-direction:column;align-items:center;text-align:center;gap:14px}.stat strong{max-width:100%;min-width:0;overflow-wrap:anywhere}.stat strong.long,.electric .stat strong.long{font-size:22px}}
 .league-art .league-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center 60%;transform:none;mix-blend-mode:normal}
 .program-images .program-photo{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:center 60%}
+
+/* Preserve the designed palette in browsers with automatic darkening. */
+:root{color-scheme:only light}

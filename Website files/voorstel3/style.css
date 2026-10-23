@@ -70,3 +70,6 @@
 .electric .hero .btn.outline{background:#0005;color:#f4f2e7;border-color:#f4f2e7}
 
 .electric .hero .field-date{color:#101611}
+
+/* Preserve the designed palette in browsers with automatic darkening. */
+:root{color-scheme:only light}
