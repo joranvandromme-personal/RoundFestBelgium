@@ -55,3 +55,7 @@
 
 /* Preserve the designed palette in browsers with automatic darkening. */
 :root{color-scheme:only light}
+
+.intro-photo{display:block;width:100%;height:auto;margin-top:30px}
+.placeholder[hidden]{display:none}
+.program-images.program-images--single{grid-template-columns:1fr}
